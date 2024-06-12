@@ -1,12 +1,12 @@
-Desafio PlaceTI  
+**Desafio PlaceTI** 
 
-Autor: Davi Crisóstomo de Sousa 
+**Autor:** Davi Crisóstomo de Sousa 
 
 Este documento descreve o webservice desenvolvido em Java com Spring para gerenciar marcas e modelos. O webservice permite realizar operações básicas de CRUD (Create, Read, Update, Delete) nas entidades Marca e Modelo. 
 
-Requisitos 
+**Requisitos**
 
-Antes de começar, certifique-se de ter os seguintes softwares instalados: 
+Antes de começar, certifique-se de ter os seguintes softwares instalados:
 
 Java Development Kit (JDK) 11+ 
 
@@ -16,13 +16,13 @@ Git
 
 Postman ou Insomnia 
 
-Passos para Clonar o Repositório 
+**Passos para Clonar o Repositório** 
 
 Clone o Repositório 
 
 Abra um terminal e execute o comando: 
 
-git clone https://github.com/DVZoRD/desafioplaceti.git 
+*git clone https://github.com/DVZoRD/desafioplaceti.git* 
  
 
 Isso criará uma cópia local do repositório na sua máquina. 
@@ -31,17 +31,17 @@ Isso criará uma cópia local do repositório na sua máquina.
 
 Navegue até o Diretório do Projeto 
 
-cd desafioplaceti 
+*cd desafioplaceti* 
 
  
 
-Configurando o Projeto 
+**Configurando o Projeto**
 
 Compilar e Construir o Projeto 
 
 No diretório raiz do projeto, execute: 
 
-mvn clean install 
+*mvn clean install*
 
  
 
@@ -51,7 +51,7 @@ Isso irá compilar o projeto e baixar todas as dependências necessárias.
 
  
 
-Execute o Projeto 
+**Execute o Projeto** 
 
 Ainda no diretório raiz do projeto, execute: 
 
@@ -59,46 +59,46 @@ mvn spring-boot:run
 
  
 
-Testando a API com Postman 
+**Testando a API com Postman** 
 
-Importar Coleção do Postman 
+**Importar Coleção do Postman** 
 
 Você pode criar uma nova coleção no Postman para testar os endpoints do projeto. Adicione os seguintes endpoints: 
 
  
 
-GET /api/marcas 
+**GET /api/marcas** 
 
-POST /api/marcas 
+**POST /api/marcas** 
 
-GET /api/marcas/{id} 
+**GET /api/marcas/{id}** 
 
-PUT /api/marcas/{id} 
+**PUT /api/marcas/{id}** 
 
-DELETE /api/marcas/{id} 
+**DELETE /api/marcas/{id}** 
 
-GET /api/modelos 
+**GET /api/modelos**
 
-POST /api/modelos 
+**POST /api/modelos** 
 
-GET /api/modelos/{id} 
+**GET /api/modelos/{id}** 
 
-PUT /api/modelos/{id} 
+**PUT /api/modelos/{id}** 
 
-DELETE /api/modelos/{id} 
+**DELETE /api/modelos/{id}**
 
  
 
-Configurar Requisições no Postman 
-Marcas: 
+**Configurar Requisições no Postman** 
+**Marcas:** 
 
-Criar uma Marca 
+**Criar uma Marca** 
 
-Método HTTP: POST 
+Método HTTP: **POST** 
 
-URL: http://localhost:8080/api/marcas 
+**URL:** http://localhost:8080/api/marcas 
 
-Body (raw JSON): 
+**Body (raw JSON):** 
 
 {  
 
@@ -114,33 +114,33 @@ Body (raw JSON):
 
  
 
-Obter Todas as Marcas 
+**Obter Todas as Marcas** 
 
-Método HTTP: GET 
+Método HTTP: **GET** 
 
-URL: http://localhost:8080/api/marcas 
-
- 
+**URL:** http://localhost:8080/api/marcas 
 
  
 
  
 
-Obter Marca por ID 
+ 
 
-Método HTTP: GET 
+**Obter Marca por ID** 
 
-URL: http://localhost:8080/api/marcas/{id} 
+Método HTTP: **GET** 
+
+**URL:** http://localhost:8080/api/marcas/{id} 
 
  
 
-Atualizar uma Marca 
+**Atualizar uma Marca** 
 
-Método HTTP: PUT 
+Método HTTP: **PUT** 
 
-URL: http://localhost:8080/api/marcas/{ìd} 
+**URL:** http://localhost:8080/api/marcas/{ìd} 
 
-Body (raw JSON): 
+**Body (raw JSON):** 
 
 {  
 
@@ -156,23 +156,23 @@ Body (raw JSON):
 
  
 
-Deletar uma Marca 
+**Deletar uma Marca**
 
-Método HTTP: DELETE 
+Método HTTP: **DELETE** 
 
-URL: http://localhost:8080/api/marcas/{id} 
+**URL:** http://localhost:8080/api/marcas/{id} 
 
  
 
-Modelos: 
+**Modelos:** 
 
-Criar um Modelo 
+**Criar um Modelo** 
 
-Método HTTP: POST 
+Método HTTP: **POST** 
 
-URL: http://localhost:8080/api/modelos 
+**URL:** http://localhost:8080/api/modelos 
 
-Body (raw JSON): 
+**Body (raw JSON):** 
 
 {  
 
@@ -192,31 +192,31 @@ Body (raw JSON):
 
  
 
-Obter Todos os Modelos 
+**Obter Todos os Modelos** 
 
-Método HTTP: GET 
+Método HTTP: **GET** 
 
-URL: http://localhost:8080/api/modelos 
-
- 
+**URL:** http://localhost:8080/api/modelos 
 
  
 
-Obter Modelo por ID 
+ 
 
-Método HTTP: GET 
+**Obter Modelo por ID** 
 
-URL: http://localhost:8080/api/modelos/{id} 
+Método HTTP: **GET** 
+
+**URL:** http://localhost:8080/api/modelos/{id} 
 
  
 
-Atualizar um Modelo 
+**Atualizar um Modelo** 
 
-Método HTTP: PUT 
+Método HTTP: **PUT**
 
-URL: http://localhost:8080/api/modelos/{ìd} 
+**URL:** http://localhost:8080/api/modelos/{ìd} 
 
-Body (raw JSON): 
+**Body (raw JSON):** 
 
 { 
 
